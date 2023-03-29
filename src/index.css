@@ -1,0 +1,29 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.poppins-dark{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+}
+
+.poppins-600{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.poppins-500{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.poppins-400{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
